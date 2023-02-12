@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background: grey;
+}
+
+.container {
+    background: linear-gradient(90deg, #FF6200, #FD7F2C);
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    background: lightgrey;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 6px;
+    padding: 10px;
+    border-radius: 20px;
+    background: white;
+    color: black;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
