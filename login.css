@@ -1,10 +1,10 @@
 body {
     font-family: sans-serif;
-    background: grey;
+    background: linear-gradient(90deg, #FF6200, #FD7F2C);
 }
 
 .container {
-    background: linear-gradient(90deg, #FF6200, #FD7F2C);
+    background: white;
     width: 400px;
     height: 250px;
     margin: auto;
@@ -30,13 +30,13 @@ input {
     margin-top: 6px;
     padding: 10px;
     border-radius: 20px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
 }
 
 .btn:hover {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     cursor: pointer;
     transition: 0.2s;
 }

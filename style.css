@@ -97,6 +97,7 @@ body {
     text-decoration: none;
     padding: 5px;
     margin-left: 10px;
+    color: black;
 }
 
 .content {
@@ -124,6 +125,7 @@ body {
 
 .card a {
     text-decoration: none;
+    color: black;
 }
 
 .alamat {
