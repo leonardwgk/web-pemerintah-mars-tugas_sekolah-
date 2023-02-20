@@ -16,16 +16,16 @@
             <h1 class="nama">MARS <span class="gov">GOV</span></h1>
         </div>
         <div class="mybtn">
-            <a href="login.html"><button class="btn">Login</button></a>
+            <a href="login.php"><button class="btn">Login</button></a>
         </div>
     </div>
 
 
     <div class="navbar">
-        <a href="index.html">Beranda</a>
-        <a href="index.html">Berita</a>
-        <a href="layanan.html">Layanan</a>
-        <a href="tentang.html">Tentang</a>
+        <a href="index.php">Beranda</a>
+        <a href="index.php">Berita</a>
+        <a href="layanan.php">Layanan</a>
+        <a href="tentang.php">Tentang</a>
     </div>
     <div class="container">
         <div class="content">

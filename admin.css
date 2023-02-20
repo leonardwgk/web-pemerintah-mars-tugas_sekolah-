@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.admin {
+    text-align: center;
+}
+
+.tabel {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 20px;
+}
+
+.baris {
+    background-color: orange;
+}
+
+.ubah {
+    margin: 5px;
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 10px;
+}
+
+.ubah:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.hapus {
+    margin: 5px;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hapus:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

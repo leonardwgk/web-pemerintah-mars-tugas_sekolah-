@@ -1,3 +1,22 @@
+<?php
+require 'koneksi.php';
+if (isset($_POST["submit"])) {
+    // konfirm data berhasil dikirim / tidak
+    if (create($_POST) > 0) {
+        echo "<script>
+        alert('Laporan Berhasil Dikirim!')
+        document.location.href = 'index.php'
+        </script>";
+    } else {
+        echo "<script>
+        alert('Laporan Gagal Dikirim!')
+        document.location.href = 'index.php'
+        </script>";
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,27 +36,27 @@
             <h1 class="nama">MARS <span class="gov">GOV</span></h1>
         </div>
         <div class="mybtn">
-            <a href="login.html"><button class="btn">Login</button></a>
+            <a href="login.php"><button class="btn">Login</button></a>
         </div>
     </div>
 
 
     <div class="navbar">
-        <a href="index.html">Beranda</a>
-        <a href="index.html">Berita</a>
-        <a href="layanan.html">Layanan</a>
-        <a href="tentang.html">Tentang</a>
+        <a href="index.php">Beranda</a>
+        <a href="index.php">Berita</a>
+        <a href="layanan.php">Layanan</a>
+        <a href="tentang.php">Tentang</a>
     </div>
     <div class="container">
-        <form action="">
+        <form action="" method="post">
             <h1>Layanan</h1>
             <label for="nama">Nama Lengkap :</label><br>
-            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Lengkap Anda"><br>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Lengkap Anda" required><br>
             <label for="alamat">Alamat :</label><br>
-            <input type="text" name="alamat" id="alamat" placeholder="Masukkan Alamat Anda"><br>
-            <label for="keluhan">Keluhan / Kritik / Saran :</label><br>
-            <input type="text" name="keluahan" id="keluahan"><br>
-            <input class="kirim" type="button" value="Kirim">
+            <input type="text" name="alamat" id="alamat" placeholder="Masukkan Alamat Anda" required><br>
+            <label for="laporan">Keluhan / Kritik / Saran :</label><br>
+            <input type="text" name="laporan" id="laporan" required><br>
+            <input class="kirim" name="submit" type="submit" value="Kirim">
         </form>
     </div>
     <div class="footer">

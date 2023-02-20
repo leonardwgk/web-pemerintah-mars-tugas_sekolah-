@@ -16,7 +16,7 @@
             <h1 class="nama">MARS <span class="gov">GOV</span></h1>
         </div>
         <div class="mybtn">
-            <a href="login.html"><button class="btn">Login</button></a>
+            <a href="login.php"><button class="btn">Login</button></a>
         </div>
     </div>
 
@@ -24,8 +24,8 @@
     <div class="navbar">
         <a href="#beranda">Beranda</a>
         <a href="#berita">Berita</a>
-        <a href="layanan.html">Layanan</a> <!-- isinya form keluhan/saran -->
-        <a href="tentang.html">Tentang</a>
+        <a href="layanan.php">Layanan</a> <!-- isinya form keluhan/saran -->
+        <a href="tentang.php">Tentang</a>
     </div>
     <div class="container">
         <div class="slides-img">
@@ -69,7 +69,7 @@
                 <div class="cards">
                     <div class="card">
                         <img src="img/berita1.jpg" alt="">
-                        <a href="berita.html">
+                        <a href="berita.php">
                             <h3><b>HEBOH!!! Ada Robot Asing Mendarat Di Planet Kita</b></h3>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eum dolor quia officiis
@@ -81,7 +81,7 @@
                     </div>
                     <div class="card">
                         <img src="img/berita2.jpeg" alt="">
-                        <a href="berita.html">
+                        <a href="berita.php">
                             <h3><b>Benda Kuno Buatan Manusia Dikirim Ke Planet Kita, Benda Apa Itu?</b></h3>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eum dolor quia officiis
@@ -93,7 +93,7 @@
                     </div>
                     <div class="card">
                         <img src="img/berita3.jpg" alt="">
-                        <a href="berita.html">
+                        <a href="berita.php">
                             <h3><b>Gunung Tertinggi Di Tata Surya Ada Di Mars</b></h3>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eum dolor quia officiis
@@ -105,7 +105,7 @@
                     </div>
                     <div class="card">
                         <img src="img/berita4.jpeg" alt="">
-                        <a href="berita.html">
+                        <a href="berita.php">
                             <h3><b>Manusia Ingin Tinggal Di Mars, Kita Harus Apa?</b></h3>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eum dolor quia officiis

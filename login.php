@@ -1,3 +1,15 @@
+<?php
+// cek tombol submit sudah ditekan / belum
+if (isset($_POST["submit"])) {
+    if ($_POST["uname"] == "admin" && $_POST["psw"] == "admin") {
+        header("location: admin.php");
+        exit;
+    } else {
+        $error = true;
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,14 +22,17 @@
 </head>
 
 <body>
-    <div class="container" style="padding: 20px;">
-        <form action="">
-            <h1>Login Admin</h1>
+    <div class="container" style="padding: 20px; height: 300px;">
+        <h1>Login Admin</h1>
+        <?php if (isset($error)) : ?>
+            <p style="color: red">Username / Password salah!</p>
+        <?php endif ?>
+        <form action="" method="post">
             <label for="nama">Username: </label>
             <input type="text" name="uname" id="nama" placeholder="Masukkan Username">
             <label for="pw">Password: </label>
             <input type="password" name="psw" id="pw" placeholder="Masukkan Password"><br>
-            <input class="btn" type="submit" value="Login">
+            <input class="btn" name="submit" type="submit" value="Login">
         </form>
     </div>
 </body>
