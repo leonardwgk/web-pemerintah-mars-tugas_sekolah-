@@ -64,7 +64,7 @@ if (isset($_POST["submit"])) {
             <input type="text" name="alamat" id="alamat" placeholder="Masukkan Alamat Anda" required value="<?= $laporan['alamat'] ?>"><br>
             <label for="laporan">Keluhan / Kritik / Saran :</label><br>
             <input type="text" name="laporan" id="laporan" required value="<?= $laporan['laporan'] ?>"><br>
-            <input class="kirim" name="submit" type="submit" value="Kirim">
+            <input class="kirim" name="submit" type="submit" value="Update">
         </form>
     </div>
     <div class="footer">
